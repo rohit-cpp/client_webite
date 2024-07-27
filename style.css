@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  /* background-color: rgb(201, 200, 200); */
+}
+nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  background-color: rgb(47, 47, 244);
+}
+
+.menu > img {
+  max-width: 30px;
+  height: auto;
+  align-items: center;
+  border: 2px solid red;
+  margin: 5px;
+}
+.jiologo {
+  margin-left: 2px;
+}
+.jiologo > img {
+  max-width: 55px;
+  margin: 2px;
+  height: auto;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchbar {
+  margin-left: 35%;
+}
+.search {
+  height: 40px;
+  border-radius: 30px;
+  background-color: rgb(23, 23, 158);
+}
+.searchbar > img {
+  max-width: 20px;
+  height: auto;
+}
+
+.profile {
+  margin-left: 37%;
+}
+.profile > img {
+  max-width: 30px;
+  height: auto;
+  margin: 10px;
+}
+.fullsection {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.leftsection > img {
+  height: 30vh;
+  width: 50%;
+  object-fit: cover;
+}
+.topsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topsection > img {
+  height: 25px;
+}
+.topsection > h3 {
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logosection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo > img {
+  max-height: 50px;
+}
+.radio {
+  display: flex;
+  justify-content: center;
+}
+.mobilenumber > p {
+  font-size: 15px;
+}
+.mnsearch {
+  border-radius: 8px;
+  height: 38px;
+  width: 100%;
+}
