@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 2px solid black; */
+  /* border: 5px solid red; */
   /* background-color: rgb(201, 200, 200); */
 }
+
 nav {
+  /* */
   height: 60px;
   width: 100%;
   display: flex;
@@ -23,7 +25,7 @@ nav {
   max-width: 30px;
   height: auto;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 5px;
 }
 .jiologo {
@@ -48,7 +50,7 @@ nav {
   border-radius: 30px;
   padding-left: 30px;
   background-color: rgb(23, 23, 158);
-  border: 2px solid yellow;
+  border: 2px solid white;
 }
 .searchbar > img {
   max-width: 20px;
@@ -92,6 +94,7 @@ nav {
   justify-content: space-between;
   margin-left: 60px;
   margin-right: 60px;
+  /* */
 }
 .logo > img {
   max-height: 50px;
@@ -139,11 +142,12 @@ nav {
 }
 
 .section2full {
+  /* */
   margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 30px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   background-color: #e9dede;
   border-radius: 20px;
 }
@@ -164,12 +168,11 @@ nav {
 }
 
 .benefits {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   display: grid;
   justify-content: center;
 }
 .imghp > img {
-  border: 2px solid black;
   border-radius: 20vh;
   height: 150vh;
   width: 150vh;
@@ -180,7 +183,7 @@ nav {
   margin-bottom: 1vh;
 }
 .imghp > h1 {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   height: 200px;
   width: 150vh;
   font-size: 15vh;
@@ -223,7 +226,7 @@ nav {
 }
 
 .lguidance {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   color: white;
   border-radius: 30px;
@@ -246,6 +249,12 @@ nav {
   justify-content: start;
   gap: 15vh;
 }
+.leftfooter .fottle {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 60px;
+}
 .f1 > h2 {
   margin-bottom: 20px;
   margin-top: 30px;
@@ -255,7 +264,6 @@ nav {
   margin: 10px 0px;
 }
 footer {
-  border: 2px solid black;
   padding: 0px 30px;
   display: flex;
 }
@@ -273,7 +281,7 @@ footer {
   height: 30px;
   width: 30px;
   object-fit: contain;
-  border: 2px solid black;
+
   margin: 10px;
   border-radius: 100%;
   background-color: blue;
@@ -284,4 +292,240 @@ footer {
 }
 .store > img {
   margin-top: 20px;
+}
+
+/* media queries start */
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .mnsearch {
+    width: 70%;
+  }
+  .tip {
+    width: 70%;
+  }
+  .rechargebutton {
+    width: 70%;
+  }
+  .mobilenumber {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .order form .inputBox input,
+  .order form .inputBox select,
+  .order form .inputBox textarea,
+  .order form .inputBox #map {
+    width: 100%;
+  }
+  .mnsearch {
+    width: 55%;
+  }
+  .tip {
+    width: 55%;
+  }
+  .rechargebutton {
+    width: 55%;
+  }
+  .mobilenumber {
+    width: 70%;
+  }
+}
+
+@media (max-width: 460px) {
+  html {
+    font-size: 50%;
+  }
+  .mnsearch {
+    width: 100%;
+  }
+  .mobilenumber {
+    width: 80%;
+  }
+
+  .tip {
+    width: 80%;
+  }
+  .rechargebutton {
+    width: 80%;
+  }
+
+  .section3 {
+    grid-gap: 10px;
+  }
+  .all > img {
+    height: 50px;
+    width: 50px;
+  }
+  .all > .items {
+    margin-left: 70px;
+  }
+  footer {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .leftfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 1vh;
+  }
+  .rightfooter {
+    margin-left: 0px;
+  }
+  /* cjh */
+
+  .imghp {
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+  }
+  /* hcsh */
+  .imghp > img {
+    height: 60vh;
+    display: block;
+    width: 95%;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: auto;
+  }
+  .imghp > h1 {
+    height: 120px;
+    width: 95%;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .imghp > p {
+    font-size: 25px;
+    height: 200px;
+    width: 95%;
+    text-align: justify;
+    margin: auto;
+  }
+  .searchbar {
+    margin-left: 4%;
+  }
+  .profile {
+    margin-left: 15%;
+  }
+  nav {
+    width: 100%;
+  }
+  .upperguidance > h1 {
+    font-size: 5vh;
+  }
+  .jiologo {
+    margin-left: 0px;
+  }
+  .jiologo > img {
+    max-width: 55px;
+    margin-left: -13px;
+    height: auto;
+    /* */
+  }
+  .leftsection > img {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .section3 {
+    padding-top: 5vh;
+
+    padding-bottom: 5vh;
+  }
+  .all > .items {
+    margin-left: 10px;
+  }
+  .reposiveheadingh {
+    height: 150px !important;
+  }
+  .guidance {
+    height: 50vh;
+    width: 100%;
+    background-color: blue;
+  }
+  .upperguidance > h1 {
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 5vh;
+    text-transform: capitalize;
+  }
+  .upperguidance > p {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 15px;
+    /* */
+  }
+  .lowerguidance {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 0px;
+    /* */
+  }
+
+  .lguidance {
+    /* border: 2px solid green; */
+    display: flex;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    margin-top: 20px;
+    width: 30vh;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .lguidance > img {
+    width: 30px;
+  }
+  .lguidance > h2 {
+    font-size: 18px;
+  }
+  .leftfooter {
+    display: flex !important;
+  }
+  .f1 > h2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .f1 > p {
+    margin: 10px 0px;
+    font-size: 15px;
+    text-align: left;
+  }
+  .rightfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .rightfooter > h2 {
+    margin-top: 30px;
+    margin-left: 0px !important;
+  }
+  .rightfooter .download h2 {
+    text-align: center;
+  }
+  .leftfooter .fottle {
+    gap: 130px;
+  }
 }
