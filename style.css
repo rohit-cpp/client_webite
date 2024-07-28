@@ -16,6 +16,7 @@ nav {
   right: 0;
   /* justify-content: space-around; */
   background-color: rgb(47, 47, 244);
+  box-shadow: 2px 2px 10px rgba(129, 129, 129, 0.714);
 }
 
 .menu > img {
@@ -192,7 +193,95 @@ nav {
   width: 150vh;
 }
 
-.border > img {
+.guidance {
   height: 60vh;
   width: 100%;
+  background-color: blue;
+}
+.upperguidance > h1 {
+  text-align: center;
+  padding-top: 15vh;
+  font-size: 12vh;
+  color: white;
+  font-weight: 900;
+  letter-spacing: -1px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.upperguidance > p {
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  color: white;
+}
+.lowerguidance {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  gap: 20px;
+}
+
+.lguidance {
+  border: 2px solid green;
+  display: flex;
+  color: white;
+  border-radius: 30px;
+  border: 1px solid white;
+  margin-top: 5vh;
+  width: 30vh;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.lguidance > img {
+  width: 30px;
+}
+.lguidance > h2 {
+  font-size: 18px;
+}
+.leftfooter {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 15vh;
+}
+.f1 > h2 {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.f1 > p {
+  margin: 10px 0px;
+}
+footer {
+  border: 2px solid black;
+  padding: 0px 30px;
+  display: flex;
+}
+.rightfooter {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.rightfooter > h2 {
+  margin-top: 30px;
+  margin-left: 12px;
+}
+.rightfooter .rightfooteimages > img {
+  /* padding: 20px; */
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 100%;
+  background-color: blue;
+}
+.download {
+  margin-top: 20px;
+  margin-left: 12px;
+}
+.store > img {
+  margin-top: 20px;
 }
